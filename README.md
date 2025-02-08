@@ -11,7 +11,7 @@ Finalmente, se implementó un Model Ensemble con clasificadores tradicionales, d
 
 ---
 
-## 📌 **INSTRUCCIONES DEL PROYECTO**
+## **INSTRUCCIONES DEL PROYECTO**
 
 ### 1️⃣ Exploración y Preprocesamiento de Datos [`1_eda_pdf_mias`]  
 - Se utilizó el conjunto de datos **MIAS**, que contiene **322 imágenes de mamografía** en formato de **rayos X** con una resolución estándar de **1024x1024 píxeles**.  
@@ -59,13 +59,12 @@ A partir de los **tres mejores modelos**, se construyó un **Model Ensemble** ut
 
 ---
 
-## 📌 **ESTRUCTURA DEL PROYECTO** 
+## **ESTRUCTURA DEL PROYECTO** 
 
 ```plaintext
 📂 v1_breast_cancer_m
 │── 📁 code
 │── 📁 EDA
-│── 📁 model
 │── 📁 images
 │── 📄 presentacion.pdf
 │── 📄 README.md
