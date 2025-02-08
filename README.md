@@ -1,13 +1,13 @@
-# **Análisis y Clasificación de Imágenes de Mamografía con Modelos Preentrenados - Versión 1**
+# **ANALISIS Y CLASFICICACION DE IMAGENES DE MAMOGRAFIA CON MODELOS PREENTRENADOS - VERSION_1**
 
 ## **DESCRIPCION**
 
-Según la **Organización Mundial de la Salud (OMS)**, el **cáncer de mama** es el **segundo cáncer más diagnosticado en mujeres en todo el mundo**.  
-Este proyecto busca aportar a la investigación en el área de **detección y clasificación de imágenes de mamografía**, explorando modelos de **aprendizaje profundo** para mejorar la clasificación de imágenes médicas.  
+Según la Organización Mundial de la Salud (OMS), el cáncer de mama es el segundo cáncer más diagnosticado en mujeres en todo el mundo.
 
-Se procesó el conjunto de datos **MIAS**, aplicando técnicas de **data augmentation** y extrayendo características de **seis modelos preentrenados**.  
-A través de la métrica de **Información Mutua**, se seleccionaron los **tres modelos con mejor rendimiento** (*f1-score > 80%*).  
-Finalmente, se implementó un **Model Ensemble** con clasificadores tradicionales, donde la inclusión de **Random Forest** mejoró el rendimiento y **redujo el overfitting**.  
+Este proyecto busca aportar a la investigación en el área de **detección y clasificación de imágenes de mamografía**, explorando modelos de **aprendizaje profundo** para mejorar la clasificación de imágenes médicas.  
+Se procesó el conjunto de datos MIAS, aplicando técnicas de data augmentation y extrayendo características de seis modelos preentrenados.  
+A través de la métrica de Información Mutua, se seleccionaron los tres modelos con mejor rendimiento (*f1-score > 80%*).  
+Finalmente, se implementó un Model Ensemble con clasificadores tradicionales, donde la inclusión de Random Forest mejoró el rendimiento y redujo el overfitting.  
 
 ---
 
@@ -62,11 +62,11 @@ A partir de los **tres mejores modelos**, se construyó un **Model Ensemble** ut
 ## 📌 **ESTRUCTURA DEL PROYECTO** 
 
 ```plaintext
-📂 Analisis_Mamografias
-│── 📁 1_eda_pdf_mias
-│── 📁 2_visualizacion
-│── 📁 3_features_extraction
-│── 📁 4_extraccion_seleccion_conc_3modelos
-│── 📁 5_modelo_cancer_mama
+📂 v1_breast_cancer_m
+│── 📁 code
+│── 📁 EDA
+│── 📁 model
+│── 📁 images
+│── 📄 presentacion.pdf
 │── 📄 README.md
 │── 📄 requirements.txt
