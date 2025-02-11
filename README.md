@@ -5,8 +5,7 @@
 Según la Organización Mundial de la Salud (OMS), el cáncer de mama es el segundo cáncer más diagnosticado en mujeres en todo el mundo.
 
 Este proyecto busca aportar a la investigación en el área de **detección y clasificación de imágenes de mamografía**, explorando modelos de **aprendizaje profundo** para mejorar la clasificación de imágenes médicas.  
-Se procesó el conjunto de datos MIAS, aplicando técnicas de data augmentation y extrayendo características de seis modelos preentrenados.  
-A través de la métrica de Información Mutua, se seleccionaron los tres modelos con mejor rendimiento (*f1-score > 80%*).  
+Se procesó el conjunto de datos MIAS, aplicando técnicas de data augmentation y extrayendo características de seis modelos preentrenados. A través de la métrica de Información Mutua, se seleccionaron los tres modelos con mejor rendimiento (*f1-score > 80%*).  
 Finalmente, se implementó un Model Ensemble con clasificadores tradicionales, donde la inclusión de Random Forest mejoró el rendimiento y redujo el overfitting.  
 
 ---
